@@ -38,6 +38,18 @@
             border: 0 !important;
         }
 
+        .imi-bg {
+            height: 100%;
+            background-image: url(landing-bg.jpeg);
+            /* background-size: cover; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            width: 100%;
+            filter: opacity(0.2);
+        }
+
         .imi-bg-animate {
             background: linear-gradient(235deg, #ffe1e0, #ffffff);
             background-size: 400% 400%;
@@ -107,14 +119,16 @@
         .right-n1 {
             right: -1rem !important;
         }
-        .w-5{
+
+        .w-5 {
             width: 5% !important;
         }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid h-100 imi-bg-animate">
+    <div class="imi-bg"></div>
+    <div class="container-fluid h-100 position-relative">
         <div class="row h-100">
             <div class="col-lg-4 col-md-8 col-sm-12 m-auto text-center">
                 <img src="logo.png" class="img-fluid rounded-circle w-40" alt="">
@@ -122,21 +136,31 @@
                 <p class="h5">Sri Lanka's Largest Hyper Casual Gaming Destination</p>
                 <div class="mt-5">
                     <div>
-                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://t.me/+BGYCSKM-aPo5NWZl"><img src="telegram.svg" class="me-2 w-5"/>Join Telegram</a>
-                        
-                        <a class="btn btn-dark w-100 rounded-pill mb-3 position-relative" href="https://imigames.page.link/PugSkip"> Pug Skip
-                            <span class="position-absolute top-0 right-n1 translate-middle badge rounded-pill bg-danger">
+                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://t.me/+BGYCSKM-aPo5NWZl"><img
+                                src="telegram.svg" class="me-2 w-5" />Join Telegram</a>
+
+                        <a class="btn btn-dark w-100 rounded-pill mb-3 position-relative"
+                            href="https://imigames.page.link/PugSkip"> Pug Skip
+                            <span
+                                class="position-absolute top-0 right-n1 translate-middle badge rounded-pill bg-danger">
                                 New
                                 <span class="visually-hidden">unread messages</span>
                             </span>
                         </a>
-                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://app.imigames.io">IMI Games - PWA</a>
-                        
-                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://play.google.com/store/apps/details?id=com.imigames.imi"><img src="google-play.svg" class="me-2 w-5"/>IMI Games</a>
-                        
-                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://play.google.com/store/apps/details?id=com.imigames.cricketbash"><img src="google-play.svg" class="me-2 w-5"/>Dialog Super Cricket</a>
-                        
-                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://apps.apple.com/lk/app/dialog-super-cricket/id1598863946"><img src="app-store.svg" class="me-2 w-5"/>Dialog Super Cricket</a>
+                        <a class="btn btn-dark w-100 rounded-pill mb-3" href="https://app.imigames.io">IMI Games -
+                            PWA</a>
+
+                        <a class="btn btn-dark w-100 rounded-pill mb-3"
+                            href="https://play.google.com/store/apps/details?id=com.imigames.imi"><img
+                                src="google-play.svg" class="me-2 w-5" />IMI Games</a>
+
+                        <a class="btn btn-dark w-100 rounded-pill mb-3"
+                            href="https://play.google.com/store/apps/details?id=com.imigames.cricketbash"><img
+                                src="google-play.svg" class="me-2 w-5" />Dialog Super Cricket</a>
+
+                        <a class="btn btn-dark w-100 rounded-pill mb-3"
+                            href="https://apps.apple.com/lk/app/dialog-super-cricket/id1598863946"><img
+                                src="app-store.svg" class="me-2 w-5" />Dialog Super Cricket</a>
                     </div>
                 </div>
             </div>
